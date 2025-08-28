@@ -26,6 +26,7 @@
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 
 body * {
@@ -145,4 +146,14 @@ body * {
   padding: 1.5rem 0;
   text-align: center;
   font-size: 0.875rem;
+}
+
+/* Responsivo */
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(../assets/bg-desktop.png);
+  }
+  .shine {
+    --bg-url: url(../assets/bg-desktop-light.png);
+  }
 }

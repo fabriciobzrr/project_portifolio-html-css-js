@@ -28,7 +28,6 @@ body {
   background: var(--bg-url) no-repeat top center/cover;
   height: 100vh;
   transition: 0.5s;
-  overflow: hidden;
 }
 
 body * {

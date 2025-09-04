@@ -15,10 +15,12 @@ function switchMode() {
       "alt",
       "Foto de Fabrício Bezerra usando um boné azul, óculos e casaco de frio."
     ) // define o texto alternativo (descrição da imagem) para fins de acessibilidade e SEO
+    // img.style.transition = "all 0.5s ease"
   } else {
     // se não tiver light mode, adicionar a imagem 2
     img.setAttribute("src", "./assets/avatar.png") // define o atributo src da imagem para './assets/avatar.png'
     img.setAttribute("alt", "Foto de Fabrício Bezerra usando camiseta preta.") // define o texto alternativo (descrição da imagem) para fins de acessibilidade e SEO
+    // img.style.transition = "all 0.5s ease"
   }
 
   // Botão Toggle ou Swith versão 1

@@ -27,6 +27,8 @@
 body {
   background: var(--bg-url) no-repeat top center/cover;
   height: 100vh;
+  transition: 0.5s;
+  overflow: hidden;
 }
 
 body * {
@@ -46,7 +48,9 @@ body * {
 }
 
 .profile img {
+  /* display: block; */
   width: 150px;
+  transition: all 0.5s ease;
 }
 
 .profile p {
@@ -63,6 +67,7 @@ body * {
   position: relative;
   width: 4rem;
   margin: 10px auto;
+  cursor: pointer;
 }
 
 .switch button {
